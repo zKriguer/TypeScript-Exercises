@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+h1{
+  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+
+input{
+  height: 30px;
+  width: 400px;
+  margin: 10px;
+}
+
+form{
+  display: flex;
+  flex-flow: column ;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: rgb(79, 79, 189);
+  width: 90px;
+  height: 30px;
+  font-weight: 500;
+  color: white;
+}
